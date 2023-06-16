@@ -81,9 +81,25 @@ body {
   width: 280px;
   height: 80px;
   padding: 19px 63px;
-  background: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
-  border-radius: 83px;
+    border-radius: 83px;
   margin-left: 169px;
+}
+.button {
+ background: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
+ cursor: pointer;
+ transition: all 500ms ease;
+ -webkit-transition: all 500ms ease;
+ -moz-transition: all 500ms ease;
+ -ms-transition: all 500ms ease;
+ -o-transition: all 500ms ease;
+}
+.button:hover {
+  background: linear-gradient(270deg, #008ba3 0%, #374dd0 66.67%, #630fc8 100%);
+  transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
 }
 .portfolio-link {
   font-style: normal;
@@ -150,8 +166,6 @@ body {
   padding: 25px;
   box-shadow: 0px 0px 12px #ffffff;
   border-radius: 50px 0px;
-}
-.project {
 }
 .project-title {
   font-style: normal;

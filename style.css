@@ -1,0 +1,478 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 16px;
+}
+body {
+  background-color: #0f1624;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.header-portfolio {
+  margin: 40px 0;
+}
+.header-portfolio-body {
+  display: flex;
+  justify-content: space-between;
+}
+.header-portfolio-logo {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 12px;
+}
+.header-portfolio-logo p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+}
+.menu a {
+  margin: 0 49px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  text-decoration: none;
+}
+.icons {
+  display: flex;
+  align-items: center;
+}
+.icons a {
+  margin: 0 15px;
+  width: 32px;
+  height: 32px;
+}
+.portfolio {
+  margin-top: 145px;
+}
+.portfolio-body {
+  display: flex;
+  justify-content: space-between;
+}
+.portfolio-text {
+}
+.portfolio-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 144px;
+  margin-left: 60px;
+  margin-bottom: 23px;
+}
+.portfolio-subtitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  color: #bcbcbc;
+  margin-left: 122px;
+  margin-bottom: 123px;
+}
+.portfolio-btn {
+  width: 280px;
+  height: 80px;
+  padding: 19px 63px;
+  background: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
+  border-radius: 83px;
+  margin-left: 169px;
+}
+.portfolio-link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  text-decoration: none;
+}
+.portfolio-img {
+  position: relative;
+  top: 0;
+  right: 0;
+  height: 758px;
+}
+.portfolio-img img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 758px;
+  height: 758px;
+  animation-name: rotateSquare;
+  animation-duration: 40s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes rotateSquare {
+  from {
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}
+
+.projects {
+  margin-top: 145px;
+}
+.projects-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 96px;
+  margin-left: 60px;
+  margin-bottom: 93px;
+}
+.projects-body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 220px;
+  row-gap: 97px;
+}
+.projects-item {
+  flex: 50%;
+  max-width: 550px;
+  padding: 25px;
+  box-shadow: 0px 0px 12px #ffffff;
+  border-radius: 50px 0px;
+}
+.project {
+}
+.project-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 88.5%;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 54px;
+  position: relative;
+}
+.project-title::after {
+  content: "";
+  display: block;
+  width: 300px;
+  height: 4px;
+  background: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
+  border-radius: 83px;
+  position: absolute;
+  left: 100px;
+  bottom: -28px;
+}
+.project p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  margin-bottom: 25px;
+  min-height: 166px;
+}
+.project-img {
+  width: 500px;
+  height: 266px;
+}
+
+.project-btn {
+  width: 200px;
+  height: 60px;
+  background: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
+  border-radius: 83px;
+  padding: 15px 52px;
+}
+.project-btn a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+}
+.technologies {
+  margin-top: 145px;
+}
+.technologies-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 96px;
+  margin-bottom: 133px;
+  margin-left: 60px;
+}
+.technologies-body {
+  width: 1330px;
+  margin: 0 auto 121px;
+}
+.technologies-item {
+  margin-bottom: 54px;
+}
+.text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skill {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+}
+.level {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+.line {
+}
+.full-line {
+  width: 1320px;
+  height: 32px;
+  background: #162950;
+  border-radius: 83px;
+}
+.progress-line {
+  height: 32px;
+  background: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
+  border-radius: 83px;
+}
+.advanced {
+  width: 990px;
+}
+.regular {
+  width: 1320px;
+}
+.beginner {
+  width: 330px;
+}
+.technologies-img {
+  background-image: url(./images/skilsskils.jpg);
+  height: 626px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 121px;
+}
+
+.skills-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  margin-bottom: 82px;
+}
+.skills-body {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1330px;
+  margin: 0 auto;
+}
+.skills-list {
+}
+.skills-item {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  margin-bottom: 32px;
+}
+.about-me {
+  margin-top: 145px;
+}
+.about-me-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 96px;
+  margin-bottom: 87px;
+  margin-left: 60px;
+}
+.about-me-body {
+  display: flex;
+}
+.about-me-item {
+  flex: 25%;
+  position: relative;
+}
+.year {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+}
+.about-me-line {
+  height: 12px;
+  background-color: #8e61d5;
+  position: absolute;
+  top: 60px;
+  width: 0;
+  left: 200px;
+}
+/*
+.about-me-left {
+  width: 50%;
+  left: 50%;
+  right: 0;
+}
+.about-me-right {
+  width: 50%;
+  right: 50%;
+  left: 0;
+}
+*/
+.about-me-dot {
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+  left: calc(50% - 16px);
+  top: 49px;
+}
+.about-me-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+  margin-top: 30px;
+}
+.about-me:hover .year-2020 {
+  animation-name: changeColor;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.about-me:hover .year-2021 {
+  animation-name: changeColor;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+.about-me:hover .year-2022 {
+  animation-name: changeColor;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+.about-me:hover .year-2023 {
+  animation-name: changeColor;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes changeColor {
+  from {
+    color: #fff;
+  }
+  to {
+    color: #8e61d5;
+  }
+}
+.about-me:hover .dot-2020 {
+  animation-name: changeDot;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.about-me:hover .dot-2021 {
+  animation-name: changeDot;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+.about-me:hover .dot-2022 {
+  animation-name: changeDot;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+.about-me:hover .dot-2023 {
+  animation-name: changeDot;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes changeDot {
+  from {
+    background-color: #fff;
+  }
+  to {
+    background-color: #8e61d5;
+  }
+}
+
+.about-me:hover .line-2020 {
+  animation-name: changeLine;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.about-me:hover .line-2021 {
+  animation-name: changeLine;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+.about-me:hover .line-2022 {
+  animation-name: changeLine;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes changeLine {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.footer {
+  margin-top: 145px;
+  margin-bottom: 45px;
+}
+.footer-body {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-element p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 63px;
+}
+.footer-element a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 63px;
+  text-decoration: none;
+}
+.footer-icons {
+  display: flex;
+  align-items: center;
+}
+.footer-icons img {
+  width: 72px;
+  height: 72px;
+  margin: 0 32px;
+}
